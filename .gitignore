@@ -1,0 +1,38 @@
+# Python-specific patterns
+/cms/venv/           # Python virtual environment for backend
+/cms/__pycache__/    # Python bytecode cache
+/cms/*.pyc           # Compiled Python files
+/cms/*.pyo
+/cms/.env            # Environment variables for backend
+
+# Node.js-specific patterns
+/cms-frontend/node_modules/  # Node modules for frontend
+/cms-frontend/.next/         # Next.js build output
+/cms-frontend/.env*          # Environment variables for frontend
+/cms-frontend/build/         # Build directory for frontend
+
+# Logs
+*.log
+*.csv
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Operating System generated files
+.DS_Store
+.DS_Store?
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Editor directories and files
+.idea
+.vscode
+*.swp
+*.swo
+*.sublime-workspace
+*.sublime-project
+
+# Others
+*.tgz
+.yarn-integrity
